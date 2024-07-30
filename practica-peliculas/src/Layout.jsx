@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Link, Routes, NavLink } from "react-router-dom";
+import { BrowserRouter as Link, Routes, NavLink } from "react-router-dom";
 
 import './css/App.css';
 import './css/Peliculas.css';
@@ -16,7 +16,7 @@ function Layout() {
 
     <div>
       <header>
-      <h1>Práctica de películas</h1>
+      <h1>Cine Zona</h1>
       </header>
 
       <ul className='Secciones'>
