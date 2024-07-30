@@ -1,0 +1,97 @@
+{
+    "usuarios":[
+       {
+        "id": "user-25",
+        "nombre": "tomi",
+        "clave": "1234"
+       } ,
+       {
+        "id": "user-32",
+        "nombre": "andrea",
+        "clave": "5678"
+       } 
+    ],
+    "peliculas":[
+        {
+            "id": "peli-1",
+            "idUsuario": "user-32",
+            "titulo": "La Matanza de Texas",
+            "director": "Francis",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=La+Matanza+De+Texas",
+            "year": 1940
+
+        },
+        {
+            "id": "peli-2",
+            "idUsuario": "user-25",
+            "titulo": "Scream",
+            "director": "Antoñito",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Scream",
+            "year": 1952
+
+        },
+        {
+            "id": "peli-3",
+            "idUsuario": "user-25",
+            "titulo": "Saw",
+            "director": "Marlene",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Saw",
+            "year": 1950
+
+        },
+        {
+            "id": "peli-4",
+            "idUsuario": "user-32",
+            "titulo": "Tiburón",
+            "director": "Eustaquio",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Tiburón",
+            "year": 1967
+
+        },
+        {
+            "id": "peli-5",
+            "idUsuario": "user-25",
+            "titulo": "Un Ciudadano Ejemplar",
+            "director": "Susanita",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Un+Ciudadano+Ejemplar",
+            "year": 1990
+
+        },
+        {
+            "id": "peli-6",
+            "idUsuario": "user-32",
+            "titulo": "Coco",
+            "director": "Mari",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Coco",
+            "year": 2016
+
+        },
+        {
+            "id": "peli-7",
+            "idUsuario": "user-25",
+            "titulo": "Destino Final",
+            "director": "Estefano",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Destino+Final",
+            "year": 1991
+
+        },
+        {
+            "id": "peli-8",
+            "idUsuario": "user-32",
+            "titulo": "Los Tres Cerditos",
+            "director": "Pattinson",
+            "isVista": true,
+            "imagen": "https://placehold.co/200x300?text=Los+Tres+Cerditos",
+            "year": 1984
+
+        }
+
+    ]
+}
