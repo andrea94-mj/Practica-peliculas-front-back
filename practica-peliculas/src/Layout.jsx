@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Link, Routes, NavLink, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes, NavLink } from "react-router-dom";
 
 import './css/App.css';
 import './css/Peliculas.css';
