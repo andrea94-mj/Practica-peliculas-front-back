@@ -19,11 +19,12 @@ function Layout() {
       <h1>Cine Zona</h1>
       </header>
 
-      <ul className='Secciones'>
-        <li><NavLink to="/catalogo">Catálogo de películas</NavLink></li>
-        <li><NavLink to="/login">Registro</NavLink></li>
-        <li><NavLink to="/add">¿Más películas?</NavLink></li>
-      </ul>
+      <div className='Secciones'>
+        <button><NavLink to="/home">Home</NavLink></button>
+        <button><NavLink to="/catalogo">Catálogo de películas</NavLink></button>
+        <button><NavLink to="/login">Registro</NavLink></button>
+        <button><NavLink to="/add">¿Más películas?</NavLink></button>
+      </div>
 
       <main>
         <Outlet/>

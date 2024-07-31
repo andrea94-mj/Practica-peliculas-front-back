@@ -1,0 +1,27 @@
+.Secciones{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+}
+.Tarjeta-pelicula{
+    background-color: lightskyblue;
+    padding: 2rem;
+    border: 1px solid  black;
+    border-radius:10px;
+    margin-bottom: 2rem;
+    
+
+}
+.Tarjeta-img{}
+.Tarjeta-titulo{}
+.Tarjeta-director{}
+.Tarjeta-año{}
+
+.Registro{
+    background-color: lightskyblue;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    padding: 2rem;
+}
